@@ -3,20 +3,26 @@ const renderInConsole = (args) => {
   return args;
 };
 
-const createUserElement = (user) => {
-  let userElement = document.createElement("li");
-  userElement.innerHTML = `<span>${user.name}</span>`;
-  return userElement;
+const createElement = (data) => {
+  let createNewElement = document.createElement("li");
+  if (data.name) {
+    createNewElement.innerHTML = `<span>${data.name}</span>`;
+  } else {
+    createNewElement.innerHTML = `<div>${data.title}</div>`;
+  }
+  return createNewElement;
 };
-const renderUser = (user, container) => {
-  let userElement = createUserElement(user);
-  container.append(userElement);
+const render = (data, container) => {
+  let newElement = createElement(data);
+  container.append(newElement);
 };
 
-const renderInDOM = (data, container) => {
+const renderInDOM = (items, container) => {
+  //svuotare il container
+  container.innerHTML = "";
   //renderizza nella pagina HTML
-  for (let user of data) {
-    renderUser(user, container);
+  for (let item of items) {
+    render(item, container);
   }
 };
 
