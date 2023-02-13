@@ -1,0 +1,19 @@
+{
+  "name": "lezione_1",
+  "version": "1.0.0",
+  "description": "Prima lezione di Javascript",
+  "main": "index.js",
+  "scripts": {
+    "localhost": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bonny",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
+
