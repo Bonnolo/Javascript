@@ -2,7 +2,7 @@ Esercizio 1: Le promises spiegate usando il mio compleanno
 
 La mia amica Kayo promette di fare una torta per il mio compleanno in due settimane.
 
-Se tutto va bene e Kayo non si ammala, avremo un certo numero di torte. (Le torte sono numerabili in questo tutorial 😆). Altrimenti, se Kayo si ammala, non avremo torte.
+Se tutto va bene e Kayo non si ammala, avremo un certo numero di torte. (Le torte sono numerabili in questo tutorial). Altrimenti, se Kayo si ammala, non avremo torte.
 
 Ad ogni modo, faremo comunque una festa.
 
